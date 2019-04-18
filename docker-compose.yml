@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  my-gin:
+    build: .
+    image: my-gin:v8
+    ports:
+     - "7070:7070"
+    container_name: goweb
